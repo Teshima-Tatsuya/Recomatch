@@ -1,0 +1,2 @@
+{Model_UserActionHistory::getPageView("feature/page/{$feature->id}")|default:0}<span style="font-size:8pt;font-weight: bold;">view</span>&nbsp;&nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="Recomatch" data-url="{Uri::base()}feature/page/{$feature->id}" data-counturl="{Uri::base()}feature/page/{$feature->id}"  data-text="特集『{$feature->inner_title}』Recomatch お気に入りをコレクションしよう" data-count="horizontal" data-lang="ja">Tweet</a><script type"text/javascript" src="//platform.twitter.com/widgets.js"></script>

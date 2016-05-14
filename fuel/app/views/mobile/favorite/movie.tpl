@@ -1,0 +1,1 @@
+{View_Smarty::forge("/parts/movie/indexList")}

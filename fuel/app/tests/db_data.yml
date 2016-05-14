@@ -1,0 +1,53 @@
+community_page:
+  - id: 1
+    user_id: 83
+    community_id: 1
+    title: BEAM OF LIGHT
+    comment: ワンオクの光芒です！
+    like_num: 0
+    item_id: 2813
+    movie_id: 202
+    created_at: 1431791852
+
+  - id: 2
+    user_id: 83
+    community_id: 1
+    title: BEAM OF LIGHT
+    comment: ワンオクの光芒です！
+    like_num: 0
+    item_id: 2813
+    movie_id: 202
+    created_at: 1431791852
+
+community: 
+  - id: 1
+    title: BEAM OF LIGHT
+    comment: ワンオクの光芒です！
+    comment_num: 0
+    like_num: 0
+    item_id: 2813
+    created_at: 1431791852
+
+  - id: 2
+    title: BEAM OF LIGHT
+    comment: ワンオクの光芒です！
+    comment_num: 0
+    like_num: 0
+    item_id: 2813
+    created_at: 1431791852
+
+  - id: 3
+    title: BEAM OF LIGHT
+    comment: ワンオクの光芒です！
+    comment_num: 0
+    like_num: 0
+    item_id: 2813
+    created_at: 1431791852
+
+  - id: 4
+    title: BEAM OF LIGHT
+    comment: ワンオクの光芒です！
+    comment_num: 0
+    like_num: 0
+    item_id: 2813
+    created_at: 1431791852

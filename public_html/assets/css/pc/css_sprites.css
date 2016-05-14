@@ -1,0 +1,319 @@
+.icon-sprite, .icon-add-link-64, .icon-add-link2-32, .icon-add-link2-64, .icon-add-list-64, .icon-add-myreco, .icon-amazon, .icon-book-64, .icon-category, .icon-chess-33-64, .icon-comments-64, .icon-comments, .icon-communication, .icon-contact, .icon-decision-64, .icon-edit, .icon-facebook, .icon-favorite-64-hover, .icon-favorite, .icon-follow, .icon-good, .icon-home-4-64, .icon-home-64, .icon-home, .icon-info, .icon-login, .icon-matome, .icon-movie, .icon-movie2, .icon-my-topic-64, .icon-myreco-64, .icon-myreco2-64-hover, .icon-myreco_comments, .icon-new-64, .icon-newspaper-64, .icon-pictures-64, .icon-profile-64, .icon-pushed-favorite, .icon-pushed-follow, .icon-pushed-good, .icon-ranking-64, .icon-ranking, .icon-search, .icon-tag, .icon-timeline, .icon-topic-64, .icon-twitter, .icon-user-64-hover, .icon-user, .icon-video-add-64, .icon-view-details-64, .icon-warning-64, .icon-youtube-64 {
+  background: url('/assets/img/common/icon-s643ac15fe9.png') no-repeat;
+  display:inline-block;
+}
+
+.icon-add-link-64 {
+  background-position: 0 -448px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-add-link2-32 {
+  background-position: 0 -3520px;
+  height: 32px;
+  width: 32px;
+}
+
+.icon-add-link2-64 {
+  background-position: 0 -512px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-add-list-64 {
+  background-position: 0 -1280px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-add-myreco {
+  background-position: 0 -1408px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-amazon {
+  background-position: 0 -1728px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-book-64 {
+  background-position: 0 -2304px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-category {
+  background-position: 0 -2752px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-chess-33-64 {
+  background-position: 0 -960px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-comments-64 {
+  background-position: 0 -3680px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-comments {
+  background-position: 0 -3552px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-communication {
+  background-position: 0 -1152px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-contact {
+  background-position: 0 -3744px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-decision-64 {
+  background-position: 0 -2048px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-edit {
+  background-position: 0 -3200px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-facebook {
+  background-position: 0 -4000px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-favorite-64-hover {
+  background-position: 0 -2432px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-favorite {
+  background-position: 0 -2880px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-follow {
+  background-position: 0 -4064px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-good {
+  background-position: 0 -1984px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-home-4-64 {
+  background-position: 0 -3008px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-home-64 {
+  background-position: 0 -3456px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-home {
+  background-position: 0 -3392px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-info {
+  background-position: 0 -3136px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-login {
+  background-position: 0 -3328px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-matome {
+  background-position: 0 -192px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-movie {
+  background-position: 0 -320px;
+  height: 64px;
+  width: 64px;
+}
+.icon-movie:hover, .icon-movie.movie_hover, .icon-movie.movie-hover {
+  background-position: 0 -256px;
+}
+
+.icon-movie2 {
+  background-position: 0 -1088px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-my-topic-64 {
+  background-position: 0 -128px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-myreco-64 {
+  background-position: 0 -1472px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-myreco2-64-hover {
+  background-position: 0 -1536px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-myreco_comments {
+  background-position: 0 -1856px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-new-64 {
+  background-position: 0 -768px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-newspaper-64 {
+  background-position: 0 -2624px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-pictures-64 {
+  background-position: 0 -64px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-profile-64 {
+  background-position: 0 -3872px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-pushed-favorite {
+  background-position: 0 -2944px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-pushed-follow {
+  background-position: 0 -1216px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-pushed-good {
+  background-position: 0 -1920px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-ranking-64 {
+  background-position: 0 -1024px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-ranking {
+  background-position: 0 0;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-search {
+  background-position: 0 -1792px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-tag {
+  background-position: 0 -2368px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-timeline {
+  background-position: 0 -832px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-topic-64 {
+  background-position: 0 -896px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-twitter {
+  background-position: 0 -2816px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-user-64-hover {
+  background-position: 0 -3264px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-user {
+  background-position: 0 -1344px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-video-add-64 {
+  background-position: 0 -704px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-view-details-64 {
+  background-position: 0 -3936px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-warning-64 {
+  background-position: 0 -2560px;
+  height: 64px;
+  width: 64px;
+}
+
+.icon-youtube-64 {
+  background-position: 0 -2112px;
+  height: 64px;
+  width: 64px;
+}

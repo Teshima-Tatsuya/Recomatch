@@ -1,0 +1,523 @@
+body{
+	font: Roboto, "Helvetica Neue", Helvetica, Arial, "Hiragino Kaku Gothic ProN W3", "HiraKakuProN-W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", Verdana, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+.test2 {
+	max-height: 80px;
+}
+
+
+.test img {
+width: 100%;
+max-height: 80px;
+margin-bottom:0px;
+}
+/* 投稿フォームの背景 
+.test a:nth-child(2){
+	display: none;
+}
+*/
+
+
+.bgimage{
+	background: url("/assets/img/common/bgimage.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1{
+	color:#393F48;
+}
+
+h5{
+	margin-top: 0.5em;
+	margin-bottom: 0px;
+}
+
+a {
+	font-size:11pt;
+	color: #333;
+	text-decoration: none;
+	outline: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #FBA848;
+	outline: none;
+}
+
+a:focus, *:focus { outline:none; }
+
+/* Recomatchのタイトル */
+.header_title{
+	background-color:#fff;
+}
+
+/* タグ */
+.tag {
+	margin: 0 0.1em;
+	padding: 0.3em 1em;
+	background: #fff;
+	font-size: 80%;
+	border: solid 1px #FBA848
+}
+
+
+p {
+	font-size: 15px !important;
+	color: #555 ;
+	line-height: 1.7em;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* 各ページのヘッダーメニューの設定 */
+
+.header_menu li a{
+	color: #fff;
+	font-size:12pt;
+}
+
+.header_menu li a:hover{
+	color:#000;
+}
+
+/* 投稿フォームの背景 */
+.edit_form{
+	background-color:#fff;
+	padding:15px;
+}
+
+/* ヘッダーメニューのタブの設定 */
+.menu_tab {color: #fff; display: block; font-size: 16pt; width: 200px; font-weight: bold; text-align: center; -webkit-transition: background .3s; transition: background .3s;}
+.myreco_tab {border: 2px solid #f6b515; background-color:#94dbf9}
+.home_tab {border: 2px solid #f6b515; background-color:#ffce67}
+.movie_tab {border: 2px solid #2AC4EA; background-color:#ccf0b2 }
+.follow_tab {border: 2px solid #2AC4EA; background-color:#ffce67 }
+.favorite_good_tab {border: 2px solid #2AC4EA; background-color:#ffce67 }
+
+.header_button a.categoryAll:hover {color: #bbb;}
+.header_button a.categoryNews:hover {color: #f6b515;}
+.header_button a.categoryEvent:hover {color: #eb5e58;}
+.header_button a.categoryProject:hover {color: #5ec1b3;}
+
+/* カテゴリーのページのメニュータブ */
+.menu_tab_myreco {color: #fff; display: block; font-size: 16pt; font-weight: bold; text-align: center; -webkit-transition: background .3s; transition: background .3s;}
+.comic_tab {border: 2px solid #f6b515; background-color:#8edbe1}
+.book_tab {border: 2px solid #f6b515; background-color:#f9849e}
+.music_tab {border: 2px solid #f6b515; background-color:#f59887}
+.anime_tab {border: 2px solid #f6b515; background-color:#aa98ca}
+.movies_tab {border: 2px solid #f6b515; background-color:#ff7166}
+.game_tab {border: 2px solid #f6b515; background-color:#fde084}
+.drama_tab {border: 2px solid #f6b515; background-color:#aee3d1}
+/* ここまで */
+
+/* home（トップページ）のメインコンテンツの設定 */
+.top-area{
+	background: #fff;
+	margin-bottom:20px;
+}
+
+.main_contents{
+	background-color: #fff;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+/* home（トップページ）のメインコンテンツの設定 */
+.home_contents{
+	background-color: #fff;
+	padding: 15px;
+	margin-left:10px;
+	margin-bottom: 10px;
+}
+
+.side_contents{
+	background-color: #fff;
+	padding: 15px;
+	margin-left:10px;
+	margin-bottom: 10px;
+}
+
+.myrecoUnit{
+	background-color:#fff;
+	padding: 15px;
+	margin-bottom:20px;
+}
+
+.myreco_comments{
+	border-top-right-radius: 3px;
+  	border-top-left-radius: 3px;
+  	border-bottom-right-radius: 3px;
+  	border-bottom-left-radius: 3px;
+  	position: relative;
+  	padding: 15px;
+  	background-color: #fff;
+  	border: solid 1px #d9d9d9;
+  	margin-top: 11px;
+  	margin-bottom: 20px;
+}
+
+.myreco_comments::before {
+  content: "";
+  display: inline-block;
+  border: 8px solid transparent;
+  border-color: rgba(255,255,255,0);
+  border-bottom-color: #d9d9d9;
+  position: absolute;
+  top: 0;
+  margin-top: -17px;
+}
+
+.myreco_comments::after {
+  content: "";
+  display: inline-block;
+  border: 8px solid transparent;
+  border-color: rgba(255,255,255,0);
+  border-bottom-color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: -16px;
+  margin-left: 15px;
+}
+
+/*みんなのまとめのコンテンツ部分*/
+.contents_title{
+  color: #444444;
+  border-bottom: 1px solid #eee;
+  padding: 0.4em 0;
+  font-size: 120%;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  margin: 0px;
+}
+
+.contents_comment{
+  font-weight: bold;
+}
+
+/*コミュニティの部分*/
+.closable-form{
+	display: none;
+}
+
+/*特集、まとめ、マイレコ、ムービー indexページのリストレイアウトのコメントとリンク */
+.contents_list{
+	padding: 10px;
+	border-bottom: 1px dotted #e7e7e7;
+}
+
+.ranking_list{
+	padding: 10px;
+}
+
+
+.index_list{
+	color: #5b5b5b;
+	margin: 0px;
+	font-size: 12px;
+	line-height: 1.7em;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+
+/* まとめページの設定 */
+.user-area{
+	background: #2AC4EA;
+}
+
+.matome{
+	color:#333;
+}
+
+.contents-title{
+	color:#333;
+}
+
+.layout_matome_images{
+	margin-right: 0.5714em;
+	font-size: 0.875em;
+}
+/* ここまで */
+
+
+/*特集とまとめの引用の部分*/
+.feature-point{
+  margin-bottom: 30px;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.source {
+	padding: 0px;
+	margin: 0px;
+}
+.source a{
+	color: #aaa;
+	font-size: 9pt;
+}
+
+blockquote{
+	display:block;
+	background: #fff;
+	padding: 0px 0px 15px 45px;
+	margin: 0 0 20px;
+	position: relative;
+
+	/*Font*/
+	line-height: 1.7;
+	color: #666;
+	text-align: justify;
+
+}
+
+blockquote::before{
+	content: "\201C"; /*Unicode for Left Double Quote*/
+
+	/*Font*/
+	font-family: Georgia, serif;
+	font-size: 60px;
+	font-weight: bold;
+	color: #999;
+
+	/*Positioning*/
+	position: absolute;
+	left: 10px;
+	top:-20px;
+}
+
+blockquote::after{
+	/*Reset to make sure*/
+	content: "";
+}
+
+blockquote em{
+	font-style: italic;
+}
+/*ここまで*/
+
+.content-subhead {
+	color: #444444;
+	border-bottom: 1px solid #eee;
+	padding: 0.4em 0;
+	font-size: 120%;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+}
+
+
+.img-circle {
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.icon {
+	vertical-align: middle;
+	padding-right:2px;
+}
+
+
+/* ボタンの設定 */
+.pure-button {
+	font-family: inherit;
+	font-size: 100%;
+	*font-size: 90%; /*IE 6/7 - To reduce IE's oversized button text*/
+	*overflow: visible; /*IE 6/7 - Because of IE's overly large left/right padding on buttons */
+	padding: 0.5em 1em;
+	color: #444; /* rgba not supported (IE 8) */
+	color: rgba(0, 0, 0, 0.80); /* rgba supported */
+	*color: #444; /* IE 6 & 7 */
+	border: 1px solid #999;/*IE 6/7/8*/
+	border: none rgba(0, 0, 0, 0);/*IE9 + everything else*/
+	background-color: #fff;
+	text-decoration: none;
+	border-radius: 2px;
+	border: solid 1px #FBA848
+}
+
+.twitter-button {
+	font-family: inherit;
+	font-size: 120%;
+	*font-size: 90%; /*IE 6/7 - To reduce IE's oversized button text*/
+	*overflow: visible; /*IE 6/7 - Because of IE's overly large left/right padding on buttons */
+	padding: 20px 30px;
+	color: #fff; /* rgba not supported (IE 8) */
+	*color: #fff; /* IE 6 & 7 */
+	border: 1px solid #999;/*IE 6/7/8*/
+	border: none rgba(0, 0, 0, 0);/*IE9 + everything else*/
+	background-color: #55ACEE;
+	text-decoration: none;
+	border-radius: 2px;
+	border: solid 1px #55ACEE;
+}
+.twitter-button a{
+	color:#fff;
+}
+.twitter-button a:hover{
+	color:#000;
+}
+
+.facebook-button {
+	font-family: inherit;
+	font-size: 120%;
+	*font-size: 90%; /*IE 6/7 - To reduce IE's oversized button text*/
+	*overflow: visible; /*IE 6/7 - Because of IE's overly large left/right padding on buttons */
+	padding: 20px;
+	color: #fff; /* rgba not supported (IE 8) */
+	*color: #fff; /* IE 6 & 7 */
+	border: 1px solid #999;/*IE 6/7/8*/
+	border: none rgba(0, 0, 0, 0);/*IE9 + everything else*/
+	background-color: #3B5998;
+	text-decoration: none;
+	border-radius: 2px;
+	border: solid 1px #3B5998;
+}
+.facebook-button a{
+	color:#fff;
+}
+.facebook-button a:hover{
+	color:#000;
+}
+
+.pure-button:hover{
+	color:#FBA848;
+}
+
+.pushed-button{
+	font-family: inherit;
+	font-size: 100%;
+	*font-size: 90%; /*IE 6/7 - To reduce IE's oversized button text*/
+	*overflow: visible; /*IE 6/7 - Because of IE's overly large left/right padding on buttons */
+	padding: 0.5em 1em;
+	color: #e3e6ed;
+	*color: #e3e6ed;
+	border: 1px solid #999;/*IE 6/7/8*/
+	border: none rgba(0, 0, 0, 0);/*IE9 + everything else*/
+	background-color: #fff;
+	text-decoration: none;
+	border-radius: 2px;
+	border: solid 1px #e3e6ed
+}
+
+
+/* ムービーのページ。コンテンツの設定 */
+.movie_area{
+	background-color:#fff;
+	padding: 15px;
+	margin-bottom: 20px;
+
+}
+
+/* フォロー、フォロワー、お知らせ、問合せのページのコンテンツ部分の背景色 */
+.contents_area{
+	background-color: #fff;
+	padding: 15px;
+	margin-top:0px;
+}
+
+/* お知らせのページ */
+.info_list li{
+	margin-bottom:20px;
+}
+
+.movieWrap{
+	position: relative;
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
+	padding-bottom: 50%;
+	padding-top: 69px;
+	overflow: hidden;
+}
+
+.movieWrap iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* ページャーで余分な余白を削除 */
+.pagination ul{
+	padding-left:0px;
+}
+
+.pager-button {
+	font-family: inherit;
+	font-size: 120%;
+	*font-size: 90%; /*IE 6/7 - To reduce IE's oversized button text*/
+	*overflow: visible; /*IE 6/7 - Because of IE's overly large left/right padding on buttons */
+	padding: 0.5em 1em;
+	color: #444; /* rgba not supported (IE 8) */
+	color: rgba(0, 0, 0, 0.80); /* rgba supported */
+	*color: #444; /* IE 6 & 7 */
+	border: 1px solid #999;/*IE 6/7/8*/
+	border: none rgba(0, 0, 0, 0);/*IE9 + everything else*/
+	background-color: #fff;
+	text-decoration: none;
+	border-radius: 2px;
+}
+
+/* 特集、まとめのコンテンツの目次 */
+.feature-subhead {
+	color: #444444;
+	border-left: 5px solid #3887BE;
+	border-bottom: 1px solid #3887BE;
+	padding: 0.4em 0.4em;
+	font-size: 120%;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+}
+
+.matome-subhead {
+	color: #444444;
+	border-left: 5px solid #F47D30;
+	border-bottom: 1px solid #F47D30;
+	padding: 0.4em 0.4em;
+	font-size: 120%;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+}
+
+/* RSSで各サイトのラベル */
+.rss-contents{
+	height: 100px;
+}
+
+.rss-contents h5{
+	font-size: 14pt;
+}
+
+.rss-label{
+	margin:0px;
+}
+
+.label {
+	display: inline-block;
+	padding: 2px 4px;
+	font-size: 11.844px;
+	font-weight: bold;
+	line-height: 14px;
+	color: #ffffff;
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-color: #999999;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	}
+.rss_comic {background-color:#8edbe1}
+.rss_book {background-color:#f9849e}
+.rss_music {background-color:#f59887}
+.rss_anime {background-color:#aa98ca}
+.rss_movies {background-color:#ff7166}
+.rss_game {background-color:#fde084}
+.rss_drama {background-color:#aee3d1}
+
+
+

@@ -1,0 +1,2 @@
+{Model_UserActionHistory::getPageView("community/page/{$community->id}")|default:0}<span style="font-size:8pt;font-weight: bold;">view</span>&nbsp;&nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="Recomatch" data-url="{Uri::base()}community/page/{$community->id}" data-counturl="{Uri::base()}community/page/{$community->id}"  data-text="「{$community->title|default:'タイトル'}」回答募集中です" data-count="horizontal" data-lang="ja">Tweet</a><script type"text/javascript" src="//platform.twitter.com/widgets.js"></script>
